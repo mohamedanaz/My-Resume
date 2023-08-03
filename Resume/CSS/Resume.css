@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(#fff,#00bfff,#e6e6fa);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+
+.address table{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+ .address table tr th{
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    color: black;
+    border: none;
+
+}
+img{
+    margin: 10px;
+    border:  3px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.skill{
+    margin-top: 70px;
+    width: 70%;
+    padding: 10px;
+    
+}
+.skill h3{
+    margin: 10px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 25px;
+}
+#ts{
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+    line-height: 20px;
+    
+    
+
+}
+.section{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+
+}
+.java{
+    margin: 30px;
+    flex-basis: 27%;
+    height: 300px;
+    border: 2px solid wheat;
+    border-radius: 7px;
+
+}
+.java h1{
+    padding: 15px;
+    color: aliceblue;
+}
+.java h3,ul,li{
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-right: 5px;
+    font-style: oblique;
+    font-size: 18px;
+
+}
+.sql{
+    margin: 30px;
+    flex-basis: 27%;
+    height: 300px;
+    border: 2px solid wheat;
+    border-radius: 7px;
+}
+.sql h1{
+    padding: 15px;
+    color: white;
+}
+.sql h3,ul,li{
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-right: 5px;
+    font-style: oblique;
+    font-size: 18px;
+
+}
+.web{
+    margin: 30px;
+    flex-basis: 27%;
+    height: 300px;
+    border: 2px solid wheat;
+    border-radius: 7px;
+}
+.web h1{
+    padding: 15px;
+   color: white;
+}
+.web h3,ul,li{
+     padding-left: 15px;
+    padding-top: 7px;
+    padding-right: 5px;
+    font-style: oblique;
+    font-size: 18px;
+}
+.framework{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 20%;
+    height: 200px;
+    border: 2px solid wheat;
+    border-radius: 7px;
+}
+.framework h1{
+    padding: 15px;
+    color: white;
+}
+.framework h3,ul,li{
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-right: 5px;
+    font-style: oblique;
+    font-size: 18px;
+}
+.tools{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 20%;
+    height: 250px;
+    border: 2px solid wheat;
+    border-radius: 7px;
+}
+.tools h1{
+    padding: 15px;
+    color: white;
+}
+.tools h3,ul,li{
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-right: 5px;
+    font-style: oblique;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.training{
+    margin-left: 15px;
+    margin-top: 50px;
+    width: 50%;
+}
+.training h1{
+    color: white;
+}
+.training h3 ul li{
+    list-style: none;
+    padding: 15px;
+    height: 100px;
+    font-size: 23px;
+    font-style: italic;
+}
+.project{
+    width: 65%;
+    height: 400px;
+}
+.project h1{
+    padding: 15px;
+    color: white;
+}
+.project h2{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.project h3 ul li{
+    list-style-type:square;
+    margin-left: 100px;
+    font-size: 20px;
+    font-style: inherit;
+}
+.studies{
+    width: 100%;
+    height: 400px;
+
+
+}
+.studies h1{
+    padding: 15px;
+    color: white;
+}
+.studies table{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.studies table,tr,th,td{
+    border: 4px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: black;
+    
+}
+.studies th {
+    text-align: center;
+    padding: 20px;
+    
+}
+td{
+    padding : 20px;
+}
+.conclusion{
+    width: 70%;
+    height: 200px;
+
+}
+.conclusion h1{
+    padding: 15px;
+    color: white;
+}
+.conclusion h3{
+    margin: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+.last{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.date{
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+.date h3{
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+.sign{
+    margin-left: 50px;
+
+}
+.sign h3{
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
